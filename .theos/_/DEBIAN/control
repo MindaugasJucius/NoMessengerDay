@@ -1,0 +1,10 @@
+Package: com.minininja.nomessengerday
+Name: NoMessengerDay
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Mindaugas Jucius
+Author: Mindaugas Jucius
+Section: Tweaks
+Version: 0.0.1-179+debug
+Installed-Size: 120

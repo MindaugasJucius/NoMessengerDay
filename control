@@ -1,0 +1,9 @@
+Package: com.minininja.nomessengerday
+Name: NoMessengerDay
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: A tweak to remove Day from Messenger's threads view
+Maintainer: Mindaugas Jucius
+Author: Mindaugas Jucius
+Section: Tweaks
