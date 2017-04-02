@@ -1,6 +1,5 @@
 static NSIndexPath *messengerDayCellIndexPath = nil;
 static NSString *MontageCellReuseIdentifier = @"MONTAGE_COMPOSER";
-static NSString *SearchBarPlaceHolderText = @"GIT GUD MESSENGER DEVS";
 static BOOL isHidden = NO;
 
 %hook MNThreadListViewController
@@ -14,15 +13,6 @@ static BOOL isHidden = NO;
     }
     return height;
 }
-%end
-
-%hook UISearchBarTextFieldLabel
-
-- (void)_setText:(id)arg1
-{
-    %orig(SearchBarPlaceHolderText);
-}
-
 %end
 
 %hook UITableView
